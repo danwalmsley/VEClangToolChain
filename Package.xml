@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="ToolChainPackage">
+  <Name>Clang Tool Chaing</Name>
+  <Version>1.0.0.0</Version>
+  <Description>Clang Tool chain for VEStudio</Description>
+  <RepoUri>https://github.com/danwalmsley/VEClangToolChain.git</RepoUri>
+  <IncludePaths>
+    <string>lib\clang\3.5.0\include</string>
+  </IncludePaths>
+  <WorkingDirectory>bin</WorkingDirectory>
+</Package>
